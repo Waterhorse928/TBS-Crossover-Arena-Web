@@ -1,0 +1,312 @@
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.log {
+  float: right;
+  width: 22%;
+  margin: 2%;
+  line-height: 1;
+  padding: 10px;
+  overflow: auto;
+}
+.main {
+  float: left;
+  width: 70%;
+  margin: 2%;
+  line-height: 0;
+  padding: 10px;
+}
+.column {
+  float: left;
+  width: 21%;
+  margin: 2%;
+  line-height: 0;
+  padding: 10px;
+  overflow: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div {
+  padding: 10px;
+  border: 2px solid gray;
+}
+</style>
+
+<div class="main">
+
+
+<div class="row">
+<pre style="text-align:center;"><font size="+2"> Enemy's Back </font></pre>
+
+<!--Player 2 Slot 8-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;"><a href="{{p2s8link}}">{{p2s8name}}</a></pre>
+<pre style="text-align:center;">Slot 8</pre>
+<pre style="text-align:left;">{{p2s8hp}}/{{p2s8MAXhp}} <b>HP</b><span style="float:right;">{{p2s8sp}}/{{p2s8MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s8def}} <b>DEF</b><span style="float:right;">{{p2s8spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s8res}} <b>RES</b><span style="float:right;">{{p2s8eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s8token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s8boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s8drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s8buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s8debuff}}</pre>
+</div>
+
+<!--Player 2 Slot 7-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p2s7name}}</pre>
+<pre style="text-align:center;">Slot 7</pre>
+<pre style="text-align:left;">{{p2s7hp}}/{{p2s7MAXhp}} <b>HP</b><span style="float:right;">{{p2s7sp}}/{{p2s7MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s7def}} <b>DEF</b><span style="float:right;">{{p2s7spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s7res}} <b>RES</b><span style="float:right;">{{p2s7eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s7token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s7boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s7drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s7buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s7debuff}}</pre>
+</div>
+
+<!--Player 2 Slot 6-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p2s6name}}</pre>
+<pre style="text-align:center;">Slot 6</pre>
+<pre style="text-align:left;">{{p2s6hp}}/{{p2s6MAXhp}} <b>HP</b><span style="float:right;">{{p2s6sp}}/{{p2s6MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s6def}} <b>DEF</b><span style="float:right;">{{p2s6spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s6res}} <b>RES</b><span style="float:right;">{{p2s6eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s6token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s6boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s6drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s6buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s6debuff}}</pre>
+</div>
+
+<!--Player 2 Slot 5-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p2s5name}}</pre>
+<pre style="text-align:center;">Slot 5</pre>
+<pre style="text-align:left;">{{p2s5hp}}/{{p2s5MAXhp}} <b>HP</b><span style="float:right;">{{p2s5sp}}/{{p2s5MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s5def}} <b>DEF</b><span style="float:right;">{{p2s5spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s5res}} <b>RES</b><span style="float:right;">{{p2s5eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s5token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s5boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s5drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s5buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s5debuff}}</pre>
+</div>
+
+</div>
+
+<div class="row">
+<pre style="text-align:center;"><font size="+2"> Enemy's Front </font></pre>
+
+<!--Player 2 Slot 4-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p2s4name}}</pre>
+<pre style="text-align:center;">Slot 4</pre>
+<pre style="text-align:left;">{{p2s4hp}}/{{p2s4MAXhp}} <b>HP</b><span style="float:right;">{{p2s4sp}}/{{p2s4MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s4def}} <b>DEF</b><span style="float:right;">{{p2s4spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s4res}} <b>RES</b><span style="float:right;">{{p2s4eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s4token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s4boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s4drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s4buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s4debuff}}</pre>
+</div>
+
+<!--Player 2 Slot 3-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p2s3name}}</pre>
+<pre style="text-align:center;">Slot 3</pre>
+<pre style="text-align:left;">{{p2s3hp}}/{{p2s3MAXhp}} <b>HP</b><span style="float:right;">{{p2s3sp}}/{{p2s3MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s3def}} <b>DEF</b><span style="float:right;">{{p2s3spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s3res}} <b>RES</b><span style="float:right;">{{p2s3eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s3token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s3boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s3drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s3buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s3debuff}}</pre>
+</div>
+
+<!--Player 2 Slot 2-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p2s2name}}</pre>
+<pre style="text-align:center;">Slot 2</pre>
+<pre style="text-align:left;">{{p2s2hp}}/{{p2s2MAXhp}} <b>HP</b><span style="float:right;">{{p2s2sp}}/{{p2s2MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s2def}} <b>DEF</b><span style="float:right;">{{p2s2spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s2res}} <b>RES</b><span style="float:right;">{{p2s2eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s2token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s2boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s2drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s2buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s2debuff}}</pre>
+</div>
+
+<!--Player 2 Slot 1-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p2s1name}}</pre>
+<pre style="text-align:center;">Slot 1</pre>
+<pre style="text-align:left;">{{p2s1hp}}/{{p2s1MAXhp}} <b>HP</b><span style="float:right;">{{p2s1sp}}/{{p2s1MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p2s1def}} <b>DEF</b><span style="float:right;">{{p2s1spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p2s1res}} <b>RES</b><span style="float:right;">{{p2s1eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p2s1token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s1boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p2s1drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s1buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p2s1debuff}}</pre>
+</div>
+
+</div>
+
+<br>
+<br>
+
+<div class="row">
+<pre style="text-align:center;"><font size="+2"> Player's Front </font></pre>
+
+<!--Player 1 Slot 1-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s1name}}</pre>
+<pre style="text-align:center;">Slot 1</pre>
+<pre style="text-align:left;">{{p1s1hp}}/{{p1s1MAXhp}} <b>HP</b><span style="float:right;">{{p1s1sp}}/{{p1s1MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s1def}} <b>DEF</b><span style="float:right;">{{p1s1spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s1res}} <b>RES</b><span style="float:right;">{{p1s1eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s1token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s1boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s1drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s1buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s1debuff}}</pre>
+</div>
+
+<!--Player 1 Slot 2-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s2name}}</pre>
+<pre style="text-align:center;">Slot 2</pre>
+<pre style="text-align:left;">{{p1s2hp}}/{{p1s2MAXhp}} <b>HP</b><span style="float:right;">{{p1s2sp}}/{{p1s2MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s2def}} <b>DEF</b><span style="float:right;">{{p1s2spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s2res}} <b>RES</b><span style="float:right;">{{p1s2eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s2token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s2boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s2drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s2buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s2debuff}}</pre>
+</div>
+
+<!--Player 1 Slot 3-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s3name}}</pre>
+<pre style="text-align:center;">Slot 3</pre>
+<pre style="text-align:left;">{{p1s3hp}}/{{p1s3MAXhp}} <b>HP</b><span style="float:right;">{{p1s3sp}}/{{p1s3MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s3def}} <b>DEF</b><span style="float:right;">{{p1s3spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s3res}} <b>RES</b><span style="float:right;">{{p1s3eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s3token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s3boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s3drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s3buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s3debuff}}</pre>
+</div>
+
+<!--Player 1 Slot 4-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s4name}}</pre>
+<pre style="text-align:center;">Slot 4</pre>
+<pre style="text-align:left;">{{p1s4hp}}/{{p1s4MAXhp}} <b>HP</b><span style="float:right;">{{p1s4sp}}/{{p1s4MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s4def}} <b>DEF</b><span style="float:right;">{{p1s4spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s4res}} <b>RES</b><span style="float:right;">{{p1s4eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s4token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s4boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s4drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s4buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s4debuff}}</pre>
+</div>
+
+</div>
+
+<div class="row">
+<pre style="text-align:center;"><font size="+2"> Player's Back </font></pre>
+
+<!--Player 1 Slot 5-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s5name}}</pre>
+<pre style="text-align:center;">Slot 5</pre>
+<pre style="text-align:left;">{{p1s5hp}}/{{p1s5MAXhp}} <b>HP</b><span style="float:right;">{{p1s5sp}}/{{p1s5MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s5def}} <b>DEF</b><span style="float:right;">{{p1s5spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s5res}} <b>RES</b><span style="float:right;">{{p1s5eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s5token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s5boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s5drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s5buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s5debuff}}</pre>
+</div>
+
+<!--Player 1 Slot 6-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s6name}}</pre>
+<pre style="text-align:center;">Slot 6</pre>
+<pre style="text-align:left;">{{p1s6hp}}/{{p1s6MAXhp}} <b>HP</b><span style="float:right;">{{p1s6sp}}/{{p1s6MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s6def}} <b>DEF</b><span style="float:right;">{{p1s6spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s6res}} <b>RES</b><span style="float:right;">{{p1s6eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s6token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s6boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s6drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s6buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s6debuff}}</pre>
+</div>
+
+<!--Player 1 Slot 7-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s7name}}</pre>
+<pre style="text-align:center;">Slot 7</pre>
+<pre style="text-align:left;">{{p1s7hp}}/{{p1s7MAXhp}} <b>HP</b><span style="float:right;">{{p1s7sp}}/{{p1s7MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s7def}} <b>DEF</b><span style="float:right;">{{p1s7spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s7res}} <b>RES</b><span style="float:right;">{{p1s7eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s7token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s7boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s7drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s7buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s7debuff}}</pre>
+</div>
+
+<!--Player 1 Slot 8-->
+<div class="column">
+<pre style="text-align:center;font-weight:900;">{{p1s8name}}</pre>
+<pre style="text-align:center;">Slot 8</pre>
+<pre style="text-align:left;">{{p1s8hp}}/{{p1s8MAXhp}} <b>HP</b><span style="float:right;">{{p1s8sp}}/{{p1s8MAXsp}} <b>SP</b></span></pre>
+<pre style="text-align:left;">{{p1s8def}} <b>DEF</b><span style="float:right;">{{p1s8spd}} <b>SPD</b></span></pre>
+<pre style="text-align:left;">{{p1s8res}} <b>RES</b><span style="float:right;">{{p1s8eva}} <b>EVA</b></span></pre>
+<pre style="text-align:center;line-height:1;">{{p1s8token}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s8boost}}</pre>
+<pre style="text-align:center;line-height:1;">{{p1s8drop}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s8buff}}</pre>
+<pre style="text-align:center;line-height:1;font-style:italic;">{{p1s8debuff}}</pre>
+</div>
+
+
+</div>
+
+<br>
+<pre style="text-align:center;"><font size="+2"> Actions </font></pre>
+    <form style="text-align:center;margin: 0 auto; width:100%;font-size: 16px;" method="POST">
+        <input style=font-family:'Consolas';font-size:24px; type="submit" value="Skill" name="1"/>
+        <input style=font-family:'Consolas';font-size:24px; type="submit" value="Rally" name="1"/>
+        <input style=font-family:'Consolas';font-size:24px; type="submit" value="Swap" name="1"/>
+    </form>
+
+</div>
+
+
+<div class="log">
+<pre style="text-align:center;"><font size="+2"> Log </font></pre>
+<br>
+<pre style="text-align:left;">{{log}}</pre>
+
+</div>
